@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 import Contact from '../components/Contact';
 import AboutMe from '../components/AboutMe';
 import Footer from '../components/Footer';
-import Product from '../components/Products';
+import Product from '../components/Product';
 
 export default function HomePage() {
   return (
