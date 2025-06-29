@@ -10,7 +10,23 @@ const gradientBg = 'bg-gradient-to-r from-[#e1a64c] to-[#1527cf]';
 const hoverGlow = 'hover:shadow-[0_0_15px_5px_rgba(225,166,76,0.9),0_0_25px_10px_rgba(21,39,207,0.9)] transition-shadow duration-300';
 const labelPurple = 'text-purple-600';
 
-function FloatingLabelInput({ label, id, type = 'text', placeholder, value, onChange }) {
+type FloatingLabelInputProps = {
+  label: string;
+  id: string;
+  type?: string;
+  placeholder?: string;
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+};
+
+function FloatingLabelInput({
+  label,
+  id,
+  type = 'text',
+  placeholder,
+  value,
+  onChange,
+}: FloatingLabelInputProps) {
   return (
     <div className="relative w-full">
       <input
@@ -39,7 +55,21 @@ function FloatingLabelInput({ label, id, type = 'text', placeholder, value, onCh
   );
 }
 
-function FloatingLabelTextarea({ label, id, placeholder, value, onChange }) {
+type FloatingLabelTextareaProps = {
+  label: string;
+  id: string;
+  placeholder?: string;
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
+};
+
+function FloatingLabelTextarea({
+  label,
+  id,
+  placeholder,
+  value,
+  onChange,
+}: FloatingLabelTextareaProps) {
   return (
     <div className="relative w-full">
       <textarea
