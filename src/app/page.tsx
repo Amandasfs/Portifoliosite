@@ -1,14 +1,14 @@
-import { I18nextProviderWrapper } from '@/components/I18nextProviderWrapper';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import Contact from '@/components/Contact';
 import AboutMe from '@/components/AboutMe';
-import Footer from '@/components/Footer';
 import Product from '@/components/Product';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 export default function HomePage() {
+  console.log({ Header, Hero, AboutMe, Product, Contact, Footer });
   return (
-    <I18nextProviderWrapper>
+    <>
       <Header />
       <main>
         <Hero />
@@ -17,6 +17,6 @@ export default function HomePage() {
         <Contact />
         <Footer />
       </main>
-    </I18nextProviderWrapper>
+    </>
   );
 }
