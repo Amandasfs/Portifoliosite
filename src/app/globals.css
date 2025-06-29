@@ -2,26 +2,88 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Variáveis de cores baseadas no arquivo colors.ts */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fffbff;
+  --foreground: #151515;
+  --primary: #485094;
+  --secondary: #9599DC;
+  --accent: #E1A64C;
+  --border: #E9F0E6;
+  --muted: #adb89d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #151515;
+  --foreground: #fffbff;
+  --primary: #9599DC;
+  --secondary: #485094;
+  --accent: #E1A64C;
+  --border: #333;
+  --muted: #79836a;
 }
 
+/* Estilização global */
 body {
+  background-color: var(--background);
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
 }
 
+/* Oculta idiomas indesejados no seletor do Google Translate */
+.goog-te-combo option:not([value='pt']):not([value='en']):not([value='es']) {
+  display: none !important;
+}
+
+/* Oculta o ícone feio do Google */
+.goog-te-gadget-icon {
+  display: none !important;
+}
+
+/* Remove bordas, padding e fonte estranha no combo */
+.goog-te-combo {
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 0.875rem;
+}
+
+/* Remove overlay automático que o Google injeta */
+.skiptranslate {
+  display: none !important;
+}
+
+/* Garante que o iframe do menu tenha z-index alto e não fique escondido */
+.goog-te-menu-frame {
+  z-index: 9999 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Utilitários personalizados */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .fade-bottom-mask {
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(12, 12, 12) 50%);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(12, 12, 12) 50%);
+  }
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .text-shadow-md {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .text-shadow-lg {
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }

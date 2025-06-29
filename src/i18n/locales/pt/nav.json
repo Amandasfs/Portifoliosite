@@ -1,0 +1,26 @@
+{
+  "products": "Produtos",
+  "aboutMe": "Sobre mim",
+  "contact": "Contato",
+  "darkMode": "Modo Escuro",
+  "lightMode": "Modo Claro",
+  "projects": "Projetos",
+  "translate": "to en",
+
+  "websites": {
+    "title": "Sites",
+    "description": "Landing pages limpas, simples e eficazes"
+  },
+  "websiteMaintenance": {
+    "title": "Manutenção de Sites",
+    "description": "Mantenha seu site atualizado e funcionando perfeitamente"
+  },
+  "weddingWebsites": {
+    "title": "Sites de Casamento",
+    "description": "Sites lindos para celebrar o seu grande dia"
+  },
+  "ecommerceSolutions": {
+    "title": "Soluções de E-commerce",
+    "description": "Shopify, Nuvemshop, WordPress e mais"
+  }
+}

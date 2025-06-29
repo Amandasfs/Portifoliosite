@@ -1,0 +1,27 @@
+{
+  "title": "Our Products",
+  "products": [
+    {
+      "title": "Business Websites",
+      "description": "Custom websites tailored to your brand — perfect for showcasing your company or products.",
+      "button": "View Demo"
+    },
+    {
+      "title": "Website Maintenance",
+      "description": "We take care of your website to keep it always functional and up-to-date.",
+      "button": "Contact Us"
+    },
+    {
+      "title": "Wedding Websites",
+      "description": "A special, personalized site for your big day, including a guest list and gift registry.",
+      "button": "View Demo"
+    },
+    {
+      "title": "Ecommerce Solutions",
+      "description": "Setup and layout for your store on Shopify, Nuvemshop, WordPress and more — a secure and beautiful way to showcase your products and boost sales.",
+      "button": "View Demo"
+    }
+  ],
+  "close": "❌ Close",
+  "contact": "Contact Us"
+}

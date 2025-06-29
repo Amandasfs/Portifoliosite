@@ -1,0 +1,27 @@
+{
+  "title": "Nossos Produtos",
+  "products": [
+    {
+      "title": "Sites Institucionais",
+      "description": "Sites personalizados com a identidade do seu negócio, perfeitos para apresentar sua empresa ou produto.",
+      "button": "Ver Demo"
+    },
+    {
+      "title": "Manutenção de Sites",
+      "description": "Cuidamos do seu site para que ele esteja sempre funcional e atualizado.",
+      "button": "Fale Conosco"
+    },
+    {
+      "title": "Sites de Casamento",
+      "description": "Site especial e personalizado para o seu grande dia, com lista de convidados e lista de presentes incluídas.",
+      "button": "Ver Demo"
+    },
+    {
+      "title": "Soluções Ecommerce",
+      "description": "Configuração e layout da sua loja em Shopify, Nuvemshop, WordPress e mais — uma maneira segura e bonita de apresentar seus produtos e impulsionar suas vendas.",
+      "button": "Ver Demo"
+    }
+  ],
+  "close": "❌ Fechar",
+  "contact": "Fale Conosco"
+}

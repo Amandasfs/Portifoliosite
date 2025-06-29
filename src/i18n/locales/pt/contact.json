@@ -1,0 +1,29 @@
+{
+  "title": "Vamos Conversar",
+  "subtitle": "Solicite um orçamento",
+  "name": "Nome ou Empresa",
+  "email": "Email",
+  "location": "Cidade, País",
+  "product": "Produto",
+  "description": "Descrição do Projeto",
+  "placeholderName": "Seu nome ou empresa",
+  "placeholderEmail": "Seu email",
+  "placeholderLocation": "Cidade, País",
+  "placeholderDescription": "Conte mais sobre seu projeto...",
+  "options": {
+    "one-page": "Sites One Page",
+    "maintenance": "Manutenção de Sites",
+    "blog": "Blogs Simples",
+    "wedding": "Sites de Casamento",
+    "ecommerce": "Soluções Ecommerce"
+  },
+  "buttonSend": "Enviar Mensagem",
+  "whatsapp": "WhatsApp",
+  "chatNow": "Conversar Agora",
+  "emailTitle": "Email",
+  "sendEmail": "Enviar Email",
+  "locationTitle": "Localização",
+  "locationValue": "São Paulo, Brasil",
+  "success": "Mensagem enviada com sucesso!",
+  "error": "Erro ao enviar mensagem. Tente novamente."
+}

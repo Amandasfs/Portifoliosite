@@ -1,0 +1,26 @@
+{
+  "products": "Products",
+  "aboutMe": "About me",
+  "contact": "Contact",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "projects": "Projects",
+  "translate": "em pt",
+
+  "websites": {
+    "title": "Websites",
+    "description": "Clean, simple, and effective landing pages"
+  },
+  "websiteMaintenance": {
+    "title": "Website Maintenance",
+    "description": "Keep your site updated and running smoothly"
+  },
+  "weddingWebsites": {
+    "title": "Wedding Websites",
+    "description": "Beautiful sites to celebrate your special day"
+  },
+  "ecommerceSolutions": {
+    "title": "Ecommerce Solutions",
+    "description": "Shopify, Nuvemshop, WordPress and more"
+  }
+}

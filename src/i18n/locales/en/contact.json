@@ -1,0 +1,29 @@
+{
+  "title": "Let's Talk",
+  "subtitle": "Request a quote",
+  "name": "Name or Company",
+  "email": "Email",
+  "location": "City, Country",
+  "product": "Product",
+  "description": "Project Description",
+  "placeholderName": "Your name or company",
+  "placeholderEmail": "Your email address",
+  "placeholderLocation": "City, Country",
+  "placeholderDescription": "Tell me more about your project...",
+  "options": {
+    "one-page": "One Page Websites",
+    "maintenance": "Website Maintenance",
+    "blog": "Simple Blogs",
+    "wedding": "Wedding Websites",
+    "ecommerce": "Ecommerce Solutions"
+  },
+  "buttonSend": "Send Message",
+  "whatsapp": "WhatsApp",
+  "chatNow": "Chat Now",
+  "emailTitle": "Email",
+  "sendEmail": "Send Email",
+  "locationTitle": "Location",
+  "locationValue": "São Paulo, Brazil",
+  "success": "Message sent successfully!",
+  "error": "Error sending message. Please try again."
+}
