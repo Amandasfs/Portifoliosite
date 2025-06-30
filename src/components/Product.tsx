@@ -21,7 +21,7 @@ export default function Product() {
 
   const products = [
     {
-      url: "https://Amandasfs.github.io/MRSite/",
+      url: "https://mr-omega.vercel.app",
       image: landingImg
     },
     {
